@@ -10,12 +10,16 @@
     <h1>Calculator</h1>
     <p>This is a calculator.</p>
     <form>
-        <input name="a" placeholder="a"/>
-        <input name="b" placeholder="b"/>
+        <input name="a" placeholder="a" id="a-input"/>
+        +
+        <input name="b" placeholder="b" id="b-input"/>
         <input type="submit" value="Calculate" id="submit-button"/>
         <div>
-            <input readonly id="result">
+            Result
+            <input name="result" readonly="true" id="result">
         </div>
     </form>
+
+    <script src="calc.js"></script>
 </body>
 </html>
