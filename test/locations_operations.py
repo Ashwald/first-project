@@ -83,6 +83,7 @@ def test_create_with_invalid_name():
 #driver = webdriver.Chrome("/home/vicziani/Softwares/chromedriver", options=chrome_options)
 driver = webdriver.Chrome()
 
+
 #test_empty_locations()
 #test_create_location()
 test_create_with_invalid_name()
